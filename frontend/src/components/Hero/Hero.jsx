@@ -14,7 +14,7 @@ const Hero = () => {
 
         <div className='relative pt-60 pl-10 max-w-[600px]'>
 
-            <h1 className='text-white font-semibold  w-[1000px] text-[118px]  leading-none  opacity-75 tracking-wide'>
+            <h1 className='text-white font-medium  w-[1000px] text-[118px]  leading-none  opacity-75 tracking-wide'>
             
                 Earth's Exhale
             </h1>
@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
 
         <div className='absolute top-[194px] right-[40px]' >
-            <div className='relative w-[512px] h-[644px] backdrop-blur-[15px]'>
+            <div className='relative w-[512px] h-[644px] backdrop-blur-[12px]'>
                 <img src={Rect} alt="glass image" className='absolute inset-0 w-full h-full'/>
 
                 <div className='absolute w-[459px] h-auto object-contain top-[-85px] left-1/2 -translate-x-1/2'>
@@ -88,7 +88,7 @@ const Hero = () => {
         </div>
 
         <div className='absolute left-[43px] top-[685px]'>
-            <div className='relative w-[409px] h-[237px] rounded-[45px] overflow-hidden bg-white/[0.04] border border-white/10 backdrop-blur-[15px]'>
+            <div className='relative w-[409px] h-[237px] rounded-[45px] overflow-hidden bg-white/[0.04] border border-white/10 backdrop-blur-[12px]'>
             
             <div className='absolute left-[27px] top-[37px]'>
                 <img src={Reviewprofile} alt="Girl" className='w-[64px] h-[64px] rounded-full object-cover' />
