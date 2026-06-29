@@ -1,14 +1,15 @@
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero"
+import Connect from "./components/Connect";
+
 
 function App() {
     return (
         <>
         <Navbar/>
 
-        <div id="Home">
-        <Hero />
-        </div>
+        
+
+        <Connect/>
         </>
     )
 }

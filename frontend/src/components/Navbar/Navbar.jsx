@@ -9,10 +9,10 @@ const Navbar = () => {
   const [open,setopen]=useState(false);
 
   return (
-    <nav className='bg-[#1B2316] flex justify-between md:px-20 md:py-6 px-5  py-5 mx-auto   '>
-        <div className='flex items-center gap-2'>
+    <nav className='bg-[#142012] flex justify-between fixed top-0 left-0 w-full bg-transparent  z-50 md:px-20 md:py-6 px-5  py-5 mx-auto   '>
+        <div className='flex items-center gap-2 '>
 
-          <img src={Pic} alt='' className=' w-10 mt-5'/>
+          <img src={Pic} alt='' className=' w-12 mt-5'/>
 
           <h1 className='text-[#FFFFFF] text-[20px] md:text-[28px] font-black mt-7 tracking-normal leading-none'
           style={{ fontFamily: "Inter" }}>
@@ -27,7 +27,7 @@ const Navbar = () => {
           style={{ fontFamily: "Indie Flower" }}>
 
             <li><a href="#Home">Home</a></li>
-            <li className='flex  gap-4 '><a href="Plants Type">Plants Type</a>
+            <li className='flex  gap-4 '><a href="Plant-Type">Plants Type</a>
               <div className="w-0 h-0 mt-3
              border-l-[6px] border-l-transparent
              border-r-[6px] border-r-transparent
@@ -35,7 +35,7 @@ const Navbar = () => {
              </div>
             </li>
             <li><a href="#More">More</a></li>
-            <li><a href="#More">Contact</a></li>
+            <li><a href="#Contact">Contact</a></li>
 
           </ul>
           
@@ -43,8 +43,8 @@ const Navbar = () => {
         </div>
         {open&&(
           <ul className='md:hidden space-y-3 px-5 py-4 text-white'>
-            <li><a href="#home"onClick={()=>setopen(false)}>Home</a></li>
-            <li><a href="#Plants Type"onClick={()=>setopen(false)}>Plants Type</a></li>
+            <li><a href="#Home"onClick={()=>setopen(false)}>Home</a></li>
+            <li><a href="#Plants-Type"onClick={()=>setopen(false)}>Plants Type</a></li>
             <li><a href="#More"onClick={()=>setopen(false)}>More</a></li>
             <li><a href="#Contact"onClick={()=>setopen(false)}>Contact</a></li>
           </ul>
