@@ -4,8 +4,8 @@ import Bg from "../assets/bg.jpg"
 
  function Connect(){
   return (
-    <section className="relative  min-h-[200vh]  ">
-     <img src={Bg} alt="" className='absolute right-[-10px] w-[1535px] h-[300vh] max-w-none -z-10 top-[-60px] ' />
+    <section className="relative fixed inset-0  min-h-[200vh] overflow-hidden ">
+     <img src={Bg} alt="" className='absolute right-[-65px] w-[1535px] h-[323vh] scale-115 object-contain max-w-none -z-10  ' />
      <Hero/>
      <Trendingplant/>
 

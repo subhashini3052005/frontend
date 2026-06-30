@@ -48,7 +48,7 @@ const Hero = () => {
 
         </div>
 
-        <div className='absolute top-[194px] right-[40px]' >
+        <div className='absolute top-[194px] right-[-40px]' >
             <div className='relative w-[512px] h-[644px] backdrop-blur-[12px]'>
                 <img src={Rect} alt="glass image" className='absolute inset-0 w-full h-full'/>
 
