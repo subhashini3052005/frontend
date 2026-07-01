@@ -25,7 +25,7 @@ const Hero = () => {
 
             <div className='flex items-center gap-5 mt-5'>
 
-                <button className=' border-white w-[217px] h-[64px] border-2 rounded-[12px] text-white opacity-75 
+                <button className=' border-white w-[217px] h-[64px] border-3 rounded-[12px] text-white opacity-75 
                 hover:text-black hover:bg-white transistion-all duration-300 easy-in-out hover:scale-100'>
                     <span className='text-[30px] font-normal leading-none'>
                         Buy Now
@@ -48,7 +48,7 @@ const Hero = () => {
 
         </div>
 
-        <div className='absolute top-[194px] right-[-40px]' >
+        <div className='absolute top-[194px] right-[-120px]' >
             <div className='relative w-[512px] h-[644px] backdrop-blur-[12px]'>
                 <img src={Rect} alt="glass image" className='absolute inset-0 w-full h-full'/>
 
@@ -64,7 +64,7 @@ const Hero = () => {
                     Aglaonema plant
                     </h3>
 
-                    <button className=' border-white w-[217px] h-[64px] border-2 mt-5 rounded-[12px] text-white opacity-75 
+                    <button className=' border-white w-[217px] h-[64px] border-3 mt-5 rounded-[12px] text-white opacity-75 
                 hover:text-black hover:bg-white transistion-all duration-300 easy-in-out hover:scale-100'>
                     <span className='text-[30px] font-normal leading-none'>
                         Buy Now
