@@ -12,7 +12,7 @@ import Plant6 from '../../assets/plant7.png'
 
 const Topselling = () => {
   return (
-    <section className="relative w-[1700px] min-h-[3253px] mx-auto bg-[#142012] overflow-hidden">
+    <section className="relative w-[1700px] min-h-[1900px] mx-auto bg-[#142012] overflow-hidden">
         <div className='absolute left-[580px] top-[120px]'>
             <h2 className='text-[55px] text-white font-semibold'>
                 Our Top Selling Plants
@@ -158,7 +158,7 @@ const Topselling = () => {
                     </div>
 
                     </div>
-                    
+
                     <div className='relative left-[127px] top-[1170px]'>
                         <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
                         <div className='absolute left-[20px] top-[-140px]'>
