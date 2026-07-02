@@ -12,13 +12,13 @@ import Plant6 from '../../assets/plant7.png'
 
 const Topselling = () => {
   return (
-    <section className="relative w-[1700px] min-h-[1900px] mx-auto bg-[#142012] overflow-hidden">
-        <div className='absolute left-[580px] top-[120px]'>
+    <section className="relative w-[1857px] top-[50px] min-h-[1900px] mx-auto bg-[#142012] overflow-hidden">
+        <div className='absolute left-[530px] top-[120px]'>
             <h2 className='text-[55px] text-white font-semibold'>
                 Our Top Selling Plants
             </h2>
         </div>
-        <div className='absolute left-[570px] top-[135px] flex '>
+        <div className='absolute left-[520px] top-[135px] flex '>
             <img src={Vector1} alt="" className='w-[61.2px] h-[63px]'/>
             <img src={Vector2} alt="" className='w-[61.2px] h-[63px] ml-[450px]'/>
         </div>
@@ -27,8 +27,8 @@ const Topselling = () => {
 
             <div className='absolute flex'>
 
-                <div className='relative left-[47px] top-[360px]'>
-                    <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
+                <div className='relative left-[25px] top-[360px]'>
+                    <img src={Rect} alt="" className='w-[500px] h-[644px]'/>
                     <div className='absolute left-[20px] top-[-115px]'>
                         <img src={Plant1} alt=""  className='w-[459px] h-[459px] object-contain '/>
                     </div>
@@ -54,8 +54,8 @@ const Topselling = () => {
                 </div>
 
                 <div>
-                    <div className='relative left-[87px] top-[360px]'>
-                    <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
+                    <div className='relative left-[25px] top-[360px]'>
+                    <img src={Rect} alt="" className='w-[500px] h-[644px]'/>
                     <div className='absolute left-[30px] top-[-115px]'>
                         <img src={plant2} alt="" className='w-[459px] h-[459px] object-contain' />
                     </div>
@@ -80,9 +80,9 @@ const Topselling = () => {
                 </div>
 
                 <div>
-                    <div className='relative left-[125px] top-[360px]'>
-                    <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
-                    <div className='absolute left-[40px] top-[-110px]'>
+                    <div className='relative left-[25px] top-[360px]'>
+                    <img src={Rect} alt="" className='w-[480px] h-[644px]'/>
+                    <div className='absolute left-[20px] top-[-110px]'>
                         <img src={Plant3} alt="" className='w-[459px] h-[459px] object-contain' />
                     </div>
 
@@ -111,8 +111,8 @@ const Topselling = () => {
 
             <div>
                 <div className='absolute flex'>
-                    <div className='relative left-[47px] top-[1170px]'>
-                        <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
+                    <div className='relative left-[25px] top-[1170px]'>
+                        <img src={Rect} alt="" className='w-[480px] h-[644px]'/>
                         <div className='absolute left-[20px] top-[-140px]'>
                         <img src={Plant4} alt=""  className='w-[459px] h-[459px] object-contain '/>
                     </div>
@@ -135,8 +135,8 @@ const Topselling = () => {
 
                     </div>
 
-                    <div className='relative left-[87px] top-[1170px]'>
-                        <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
+                    <div className='relative left-[25px] top-[1170px]'>
+                        <img src={Rect} alt="" className='w-[500px] h-[644px]'/>
                         <div className='absolute left-[20px] top-[-140px]'>
                         <img src={Plant5} alt=""  className='w-[459px] h-[459px] object-contain '/>
                     </div>
@@ -159,8 +159,8 @@ const Topselling = () => {
 
                     </div>
 
-                    <div className='relative left-[127px] top-[1170px]'>
-                        <img src={Rect} alt="" className='w-[512px] h-[644px]'/>
+                    <div className='relative left-[25px] top-[1170px]'>
+                        <img src={Rect} alt="" className='w-[500px] h-[644px]'/>
                         <div className='absolute left-[20px] top-[-140px]'>
                         <img src={Plant6} alt=""  className='w-[459px] h-[459px] object-contain '/>
                     </div>

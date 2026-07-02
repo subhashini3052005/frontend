@@ -8,24 +8,24 @@ import Plant3 from '../../assets/plant3.png'
 
 const Trendingplant = () => {
   return (
-    <section className='min-h-[1700px]'>
+    <section className='min-h-[1728px]'>
 
-      <div className='absolute left-[580px] top-[1000px]'>
+      <div className='absolute left-[580px] top-[1050px]'>
         <h2 className='text-[55px] font-semibold text-white leading-none w-[584px]'>
           Our Trendy Plants
         </h2>
       </div>
 
-      <div className='absolute left-[570px] top-[1000px] flex'>
+      <div className='absolute left-[570px] top-[1050px] flex'>
           <img src={Vector1} alt="" className='w-[61.2px] h-[63px]' />
           <img src={Vector2} alt=""  className='w-[61.5px] h-[63px] ml-[345px]'/>
       </div>
 
-      <div className='absolute left-[45px] top-[1155px]'>
+      <div className='absolute left-[45px] top-[1225px]'>
 
-        <div className='relative w-[1600px] h-[526px] rounded-[151px] border-2 border-white/20 bg-white/[0.05] backdrop-blur-[15px]  '>
+        <div className='relative w-[1430px] h-[526px] rounded-[151px] border-2 border-white/20 bg-white/[0.05] backdrop-blur-[15px]  '>
 
-          <div className='absolute left-[15px] -top-[160px] overflow-visible z-20 '>
+          <div className='absolute left-[15px] -top-[150px] overflow-visible z-20 '>
             <img src={Plant2} alt="" className='w-[630px] h-auto scale-110 object-contain'/>
           </div>
 
@@ -40,7 +40,7 @@ const Trendingplant = () => {
           </div>
 
           <div className='absolute left-[805px] top-[210px]'>
-            <p className='w-[732px] font-semibold text-white text-[20px] leading-[25px]'>
+            <p className='w-[600px] font-semibold text-white text-[20px] leading-[25px]'>
               I recently added a beautiful desk decoration plant to my workspace, and it has made such a positive difference!
             </p>
           </div>
@@ -71,8 +71,8 @@ const Trendingplant = () => {
       </div>
 
 
-      <div className='absolute left-[45px] top-[1815px]'>
-        <div className='relative w-[1600px] h-[526px] rounded-[151px] border-2 border-white/20 bg-white/[0.05] backdrop-blur-[15px]  '>
+      <div className='absolute left-[45px] top-[1900px]'>
+        <div className='relative w-[1430px] h-[526px] rounded-[151px] border-2 border-white/20 bg-white/[0.05] backdrop-blur-[15px]  '>
 
         <div className='absolute left-[65px] top-[125px]'>
           <h3 className='w-[508px] text-[38px] text-white font-semibold leading-none'>
@@ -109,8 +109,8 @@ const Trendingplant = () => {
 
         </div>
 
-        <div className='absolute left-[926px] -top-[121px] z-20'>
-          <img src={Plant3} alt="" className='w-[732px] h-auto object-contain scale-110'/>
+        <div className='absolute left-[926px] -top-[60px] z-20'>
+          <img src={Plant3} alt="" className='w-[732px] h-auto object-contain scale-140'/>
         </div>
 
       </div>
