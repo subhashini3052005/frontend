@@ -3,6 +3,7 @@ import Trendingplant from "./Trendingplant/Trendingplant";
 import Topselling from "./Topselling/Topselling";
 import Review from "./Review/Review";
 import Ourbest from "./Ourbest/Ourbest";
+import Footer from "./Footer/Footer";
 
 import Bg from "../assets/bg.jpg"
 
@@ -15,6 +16,7 @@ import Bg from "../assets/bg.jpg"
      <Topselling/>
      <Review/>
      <Ourbest/>
+     <Footer/>
      
 
 
