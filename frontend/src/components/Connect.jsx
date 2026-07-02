@@ -1,4 +1,4 @@
-import Hero from "./hero/hero";
+import Hero from "./Hero/Hero";
 import Trendingplant from "./Trendingplant/Trendingplant";
 import Topselling from "./Topselling/Topselling";
 import Review from "./Review/Review";
