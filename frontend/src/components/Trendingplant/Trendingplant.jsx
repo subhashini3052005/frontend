@@ -2,7 +2,7 @@ import React from 'react'
 import Vector1 from '../../assets/Vector5.png'
 import Vector2 from '../../assets/Vector6.png'
 import Angle from '../../assets/Rectangle.png'
-import Plant2 from '../../assets/Plant2.png'
+import Plant2 from '../../assets/plant2.png'
 import Bag from '../../assets/bag.png'
 import Plant3 from '../../assets/plant3.png'
 
